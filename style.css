@@ -1,0 +1,163 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0a66c2;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Navigation */
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* Main */
+main {
+    padding: 30px 0;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Sections */
+section {
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+section h2 {
+    color: #0a66c2;
+    margin-bottom: 20px;
+}
+
+/* image */
+figure{
+  text-align: center;
+  margin: 20px;
+}
+
+figure img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #0a66c2;
+  object-fit: cover;
+}
+
+figcaption img{
+  margin: 10px;
+  font-weight: bold;
+}
+
+/* skills */
+ul{
+  margin-left: 20px;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+/* project */
+article{
+  background: eef5ff;
+  margin-top: 20px;
+  padding: 20px;
+  border-left: 5px solid #0a66c2;
+  border-radius: 8px;
+}
+
+/* Aside */
+aside{
+  background:#0a66c2;
+  color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+aside h2{
+  margin-bottom: 15px;
+}
+
+/* hobbies */
+ul{
+  margin-left: 20px;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+/* Contact */
+
+#contact p{
+  margin-bottom: 10px;
+}
+
+/* footer */
+footer{
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+  header h1{
+    font-size: 35px;
+  }
+
+  nav a{
+    display: block;
+    margin: 10px;
+  }
+
+  main{
+    width: 95%;
+  }
+  figure img{
+    width: 150px;
+    height: 150px;
+  }
+}
